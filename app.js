@@ -209,7 +209,8 @@ function toggleBackground() {
 
   themeToggle.addEventListener("change", function () {
     const isChecked = this.checked;
-    document.body.style.background = isChecked ? "#333" : "#fff"; // Change background color here
+    document.body.style.background = isChecked ? "#876" : "#541"; // Change background color here
+    
   });
 }
 toggleBackground();
