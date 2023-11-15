@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <title>Resume Templates</title>
     <link
     rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
@@ -17,9 +19,9 @@
     <span class="secondbox"></span>
     <span class="thirdbox"> <span>
         <!-- FIRST generate pdf onclick dom  mouse event ,refer to jspdf functionality under my node file -->
-        <button id="download-button1" style="width:100%;height: 25%;" onclick="generatePDF1()">DOWNLOAD-1</button></span><span>
+        <button id="download-button1"  class="button-92" role="button"style="width:100%;height: 25%;" onclick="generatePDF1()">DOWNLOAD-RESUME-1</button></span><span>
             <!-- second download pdf button dom onclick event -->
-            <button id="download-button2"  style="width:100%;height: 15%;" onclick="generatePDF2()">DOWNLOAD-2</button></span></span>
+            <button id="download-button2"  class="button-92" role="button" style="width:100%;height: 15%;" onclick="generatePDF2()">DOWNLOAD-RESUME-2</button></span></span>
          
          
             <div id="theme-switch-container">
@@ -38,25 +40,27 @@
 <!-- these are my start of containers, 1st one being form container or container1 -->
     <div id="container1" class="container" >
         <!-- ... (Container 1 content) ... -->
-        <h3>TEMPLATE TYPE</h3>
+        <h4 id="type">CHOOSE TEMPLATE TYPE</h4>
         <!-- Move the select element into Container 1 -->
         <span>
+      
         <select id="optionsSelect">
-            <option id="firstOne" value="option1">Two Column</option>
+            <option id="firstOne" value="option1">TWO    COLUMN</option>
             <!-- for first element choose first option or resume1 -->
-            <option id="secondOne" value="option2">Minimalist</option>
+            <option id="secondOne" value="option2">MINIMALIST</option>
             <!-- this one is for the second option where my second resume,resume 2 pops up with a small animation -->
         </select>
+         
         </span>
           <!-- ... (Container 1 content) ... --> 
           <!-- color picker for header of my resume where my NAME APPEARS -->
           <span class="color-picker">
-              <h4>HEADER COLOR</h4>
+              <h3 id="anime">HEADER COLOR</h3>
               <input type="color" id="headerColorPicker">
           </span>
       <!-- TEXT COLOR PICKER FOR ALL RESUMES -->
           <span class="color-picker">
-              <h4>TEXT COLOR</h4>
+              <h3 id="anime">TEXT COLOR</h3>
               <input type="color" id="textColorPicker">
           </span>
           <!-- hey my form begins and i have added many input field, it should dynamically appear on my resume 1 and resume 2 -->
@@ -64,7 +68,7 @@
              <!-- my form starts here     -->
               <!-- primary input details as required -->
               <!-- <label for="nameInput">Enter your name:</label> -->
-              <h3>PERSONAL DETAILS :</h3>
+              <h3 id="anime">PERSONAL DETAILS :</h3>
               <!-- this is my 1st input -->
               <!-- here i enter my name -->
               <input type="text" id="nameInput" placeholder=" ENTER NAME:YOUR NAME LIKE Akhil" required >
@@ -83,15 +87,15 @@
                      <!-- this one for complete address -->
                      <!-- address input ends here -->
                      <br>
-                     <h3>LINKEDIN</h3>
+                     <h3 id="anime">LINKEDIN</h3>
                     
                      <input type="text" id="linkedin" name="linkedin" placeholder="Enter your LinkedIn profile URL" required>
                      <br>
-                     <h3>GITHUB </h3>
+                     <h3 id="anime">GITHUB </h3>
                      <input type="text" id="github" name="github" placeholder="Enter your GitHub profile URL" required>
                      <br>
                      <!-- main details or subject of resume starts here -->
-                     <h3>PROFESSIONAL DETAILS:</h3>
+                     <h3 id="anime">PROFESSIONAL DETAILS:</h3>
                      <br>
                      <!-- this one for wanted job title appears on the resumes -->
                      <input type="text" class="form-control" id="exampleFormControlInput5" placeholder=" WANTED JOB TITLE" >
@@ -105,17 +109,17 @@
                 <!-- button for adding employment details here -->
                 <!-- WATCH OUT THE DOM EVENT -ON CLICK -->
                                  
-                <button id="first" type="button" class="btn btn-secondary" onclick="addTextArea('employment', 'textAreasContainer1')">Add Employment</button>
+                <button id="first" type="button" class="button-89" onclick="addTextArea('employment', 'textAreasContainer1')">ADD EMPLOYMENT</button>
                     <!-- GIVE AN ID AND A DIVE FOR CEAETING TEXTAREAS UPON ON EACH BUTTON CLICK -->
                 <div id="textAreasContainer1" class="textAreaContainer1"></div>
   <!-- this one for addding project details 
   WATCH OUT FOR DOM ONCLICK EVENT -->
     
-  <button id="second" type="button" class="btn btn-secondary" onclick="addTextArea('project', 'textAreasContainer2')">Add Project</button>
+  <button id="second" type="button" class="button-89" onclick="addTextArea('project', 'textAreasContainer2')">ADD PROJECT</button>
     <!-- GIVE AN ID AND A DIVE FOR CREATING TEXTAREAS UPON ON EACH BUTTON CLICK -->
     <div id="textAreasContainer2" class="textAreaContainer2"></div>
   <!-- THIS ONE FOR ADDING EDUCATIONAL DETAILS AGAIN WATCH OUT DOM ONCLICK EVENT -->
-    <button id="third" type="button" class="btn btn-secondary" onclick="addTextArea('education', 'textAreasContainer3')">Add Educational Details</button>
+    <button id="third" type="button" class="button-89" onclick="addTextArea('education', 'textAreasContainer3')">ADD EDUCATIONAL DETAILS</button>
       <!-- GIVE AN ID AND A DIVE FOR CREATING TEXTAREAS UPON ON EACH BUTTON CLICK -->
     <div id="textAreasContainer3" class="textAreaContainer3"></div>
            
@@ -131,53 +135,62 @@
     <!-- START OF MY CONTAINER 2 IT CONTAINS RESUME 1 TWO COLUMN -->
       <!-- ... (Container 3 content, initially hidden) ... -->
      
-      <span id="resume1">
+      <span id="resume1" style="width:100%;">
         <!-- AN ID, AND SPAN TAG WAS CHOSEN FOR GENERATED PDF -->
       <div id="header2">
         <!-- HERE MY NAME SHOULD APPEAR -->
 
-        <h5>HELLO,EVERYONE</h5>  
+        <h5>HELLO,EVERYONE</h5>  <i class="fa fa-address-book-o" aria-hidden="true"></i>
+
         <p id="name3"></p>
-        <section id="contact">
-          <div class="social-icons">
-            <i class="fa fa-github"></i>
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-medium"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-youtube"></i>
-          </div>
-        </section>
+     
      
        
       </div>
   <!-- IT CONTAINS MAIN RESUME DETAILS AND INFORMATION -->
-      <div class="row">
+      <span class="row">
 <!-- IT CONTAINS SKILLS AND CONTACTS DEATLS -->
-          <div id="side">
-<span>
-              <div id="leftside">
-                <div id="contact">
-                <h3>CONTACT DETAILS</h3>
+          <span id="side">
+
+              <span id="leftside">
+                <span id="contact">
+                <h3>EMAIL</h3>
+                <span><i class="fa fa-medium"></i></span>
                   <p id="email"></p>
+                 
+                  <H3>PHONE</H3>
                   <p id="phone"></p>
+                  <span></span>
+                  <h3>CITY</h3>
                   <p id="country"></p>
-                  <span> <p id="linkedin1"></p>
-                    <p id="github1"></p></span> 
-                    </div>
-                </div>
-             </span>
-              <div id="skills">
-                  <h3>SKILLS</h3>
-                  <p id="skills"></p>
-              </div>
-          </div>
+                  <span> <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                   
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-youtube"></i></span>
+                    <span id="skills5">
+                      <h3>SKILLS</h3>
+                      <p id="skills"></p>
+                      <h3>EXTRA CURRICULARS</h3>
+                      <SPAN>HOBBIES</SPAN>
+                    
+                  </span>
+                  <h3>LINKEDIN</h3>
+                 <p id="linkedin1"></p>
+                 <span><i class="fa fa-medium"></i></span>
+                 <h3>GITHUB</h3>
+                 <span> <i class="fa fa-github"></i></span>
+                    <p id="github1"></p>
+              </span>
+            </span>
+
+           
+            </span>
   
   <!-- end of my side section of resume -->
   
   <!-- IT CONTAINS ALL REST OF MAIN INFORMATION -->
           <div id="main">
-              <div class="mainc"> <h3>ALL INFORMATION</h3></div>
               <!-- JOB TITLE TYPED APPEARS HERE -->
              <div class="summ"><h3>WANTED JOB TITLE</h3>
               <p id="wantedJobTitle"></p>
@@ -187,12 +200,20 @@
   
              <!-- all EMPLOYMENT details here -->
               <div class="employ"><h3>EMPLOYMENT</h3>
+                <h3>COMPANY LIST</h3>
+                <h3>NOTICE PERIOD</h3>
                   <p id="employment"></p></div>
               <!-- ALL PROJECTS DETALS HERE -->
               <div class="proj"> <h3>PROJECTS</h3>
+                <h3>PROJECT START DATE</h3>
+                <h3>PROJECT END DATE</h3>
                   <p id="project"></p></div>
              <!-- ALL EDUACTIONAL DETALS HERE -->
               <div class="edu"> <h3>EDUCATIONAL DETAILS</h3>
+               <H3>SCHOOLING</H3>
+               <H3>COLLEGE</H3>
+               <H3>GRADUATION</H3>
+               <SPAN>EMERCENCY CONTACT</SPAN>
                   <p id="education"></p></div>
                </span> 
                  <!-- FOR PRINT /PDF ONLY  -->
@@ -210,16 +231,9 @@
            -->
           <div id="header3">
                <h3>HI,THERE!!!!</h3> 
-               <section id="contact">
-                <div class="social-icons">
-                  <i class="fa fa-github"></i>
-                  <i class="fa fa-facebook"></i>
-                  <i class="fa fa-twitter"></i>
-                  <i class="fa fa-medium"></i>
-                  <i class="fa fa-instagram"></i>
-                  <i class="fa fa-youtube"></i>
-                </div>
-              </section>   
+               <i class="fa fa-id-card"></i>
+
+              
            <!-- ALL MY NAME APPAEARS HERE      -->
           </div>
           <!-- THE MAIN IMPORTANT CONTENTS OF RESUME 2 APPAERS HERE -->
@@ -232,6 +246,16 @@
                   <p id="country3"></p>
                  <p id="linkedin2"></p>
                     <p id="github2"></p>
+                    <section id="contact">
+                      <div class="social-icons">
+                        <i class="fa fa-github"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-medium"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-youtube"></i>
+                      </div>
+                    </section>   
               </span>
                 <!-- END OF MY CONTACT SECTION OF RESUME 2 -->
           <div id="summary2">
@@ -243,12 +267,14 @@
   <!-- SUMMARY OF RESUME 2 ENDS HERE -->
           <div id="skills2">
               <h3>SKILLS</h3>
+              <i class= "fa-search"></i>
               <p id="skills2"></p>
           </div>
   <!-- ALL SKILLS OF RESUME 2 -->
           <div id="experience2">
               <h3>PROFESSIONAL EXPERIENCE</h3>
               <p id="wexperience2"> </p>
+              <i class= "fa-id-card"></i>
               <!-- WORK EXPERIENCE GAINED CAN BE ADDED HERE -->
               <p id="experience2"></p>
           </div>
@@ -261,6 +287,9 @@
   <!-- ALL MY EDUCATIONAL DETAILS FOR RESUME2 -->
           <div id="education2">
               <h3>EDUCATION</h3>
+              <i class="fa-solid fa-user"></i>
+<i class="fa-duotone fa-image"></i>
+<i class="fa-duotone fa-aperture"></i>
               <p id="education2"></p>
               </div>
            </span> 
@@ -275,9 +304,10 @@
   <script src="./app.js"></script>
 <!-- Include this script in your HTML to use the library from CDN -->
 <!-- ALL THESE EXTRA STUFFS FOR PDF PRINTING ONLY -->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
 <script
 			src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
 			integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
