@@ -241,11 +241,7 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
     .container {
         width: 70%; /* Adjust width as needed */
     }
-    #container2,
-  #container3 {
-      width: 100%; /* Full width for mobile screens */
-      display: flex;
-      flex-direction: column; /* Stack containers in a column on mobile screens */
+
   }
 
     /* Add any additional styles for tablet and desktop views */
@@ -271,7 +267,7 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
     #myForm {
         width: 80%; /* Adjust width as needed */
     }
-}
+
 
 /* Media Query for Desktops and Larger Screens */
 @media (min-width: 992px) {
@@ -286,10 +282,11 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
         width: 50%; /* Adjust width as needed */
     }
 }
-@media (max-width: 767px) {
+@media (max-width:480px) {
   .container {
     width: 70%; /* Adjust width as needed */
 }
+body,
   #container2,
   #container3 {
       width: 100%; /* Full width for mobile screens */
