@@ -239,8 +239,14 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
 
   @media (min-width: 768px) {
     .container {
-        width: 60%; /* Adjust width as needed */
+        width: 70%; /* Adjust width as needed */
     }
+    #container2,
+  #container3 {
+      width: 100%; /* Full width for mobile screens */
+      display: flex;
+      flex-direction: column; /* Stack containers in a column on mobile screens */
+  }
 
     /* Add any additional styles for tablet and desktop views */
     .row {
@@ -269,14 +275,25 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
 
 /* Media Query for Desktops and Larger Screens */
 @media (min-width: 992px) {
-    .container {
-        width: 45%; /* Adjust width as needed */
-    }
+  .container {
+    width: 70%; /* Adjust width as needed */
+}
 }
 
 /* Media Query for Large Desktops */
 @media (min-width: 1200px) {
     .container {
-        width: 40%; /* Adjust width as needed */
+        width: 50%; /* Adjust width as needed */
     }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 70%; /* Adjust width as needed */
+}
+  #container2,
+  #container3 {
+      width: 100%; /* Full width for mobile screens */
+      display: flex;
+      flex-direction: column; /* Stack containers in a column on mobile screens */
+  }
 }
