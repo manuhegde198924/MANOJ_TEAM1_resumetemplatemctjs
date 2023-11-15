@@ -203,7 +203,16 @@ document.getElementById('myForm').addEventListener('input', function () {
 
 });
 
+// Call the function to initialize the theme toggle
+function toggleBackground() {
+  const themeToggle = document.getElementById("theme-toggle");
 
+  themeToggle.addEventListener("change", function () {
+    const isChecked = this.checked;
+    document.body.style.background = isChecked ? "#333" : "#fff"; // Change background color here
+  });
+}
+toggleBackground();
 
 // const button = document.getElementById('download-button');
 //                 const resume1=document.getElementById('firstOne');
@@ -226,6 +235,7 @@ document.getElementById('myForm').addEventListener('input', function () {
 
 //check jspdf and html2pdf files under my node moudule for pdf generation
 //for onclick of button 1
+
 			function generatePDF1() {		
           alert("Hey!!!PLEASE CHECK DOWNLOADS FOR PDFS, CHECK PDF OF RESUME 1 YOUR RESUME PDF IS READY CHECK PDF(RESUME/TWO COLUMN VERSION) FILE UNDER DOWNLOADS,THANKYOU,VERYMUCH.HAVE A GREAT DAY.");
           //the element needed for pdf generation resume 1 or two coulumn resume

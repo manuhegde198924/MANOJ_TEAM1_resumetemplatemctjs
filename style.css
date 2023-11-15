@@ -262,10 +262,6 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
         flex-direction: row;
     }
 
-    #side,
-    #main {
-        width: 100%; /* Adjust width as needed */
-    }
 
     #header2,
     #header3 {
@@ -280,13 +276,13 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
     #myForm {
         width: 80%; /* Adjust width as needed */
     }
-
-
+    
 /* Media Query for Desktops and Larger Screens */
 @media (min-width: 992px) {
   .container {
     width: 70%; /* Adjust width as needed */
 }
+
 }
 
 /* Media Query for Large Desktops */
@@ -294,6 +290,7 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
     .container {
         width: 50%; /* Adjust width as needed */
     }
+   
 }
 @media (max-width:480px) {
   .container {
