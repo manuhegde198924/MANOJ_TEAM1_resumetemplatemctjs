@@ -286,6 +286,9 @@ background: radial-gradient(755px at 10.1% 95.3%, rgb(242, 188, 141) 0%, rgb(242
   .container {
     width: 70%; /* Adjust width as needed */
 }
+#leftside{
+  height:100%;
+}
 body,
   #container2,
   #container3 {
