@@ -58,24 +58,24 @@ textColorPicker.addEventListener('input', function () {
 document.getElementById('myForm').addEventListener('input', function () {
     // Update header with name
     //choose the header where name should appear,then you have to modify text content upon input 
-    document.getElementById('name3').innerText = document.getElementById('nameInput').value;
+    document.getElementById('name3').innerHTML = '<h4>I AM:</h4>'+document.getElementById('nameInput').value;
 
     // Update side content
     //update email,phone number,github,contact,address
-    document.getElementById('email').innerText = 'Email: ' + document.getElementById('exampleFormControlInput1').value;
-    document.getElementById('phone').innerText = 'Phone: ' + document.getElementById('exampleFormControlInput2').value;
-    document.getElementById('country').innerText = ' CITY COUNTRY PINCODE [ADDRESS]: ' + document.getElementById('exampleFormControlInput4').value;
-    document.getElementById('linkedin1').innerText = 'LINKEDIN URL:'+document.getElementById('linkedin').value;
-    document.getElementById('github1').innerText ='GITHUB URL:'+ document.getElementById('github').value;
+    document.getElementById('email').innerHTML = '<h5>Email:</h5> ' + document.getElementById('exampleFormControlInput1').value;
+    document.getElementById('phone').innerHTML = '<h5>Phone: </h5>' + document.getElementById('exampleFormControlInput2').value;
+    document.getElementById('country').innerHTML = ' <h5>CITY COUNTRY PINCODE [ADDRESS]:</h5> ' + document.getElementById('exampleFormControlInput4').value;
+    document.getElementById('linkedin1').innerHTML = '<h5>LINKEDIN URL:</h5>'+document.getElementById('linkedin').value;
+    document.getElementById('github1').innerHTML ='</h5>GITHUB URL:<h5>'+ document.getElementById('github').value;
     // Update skills
-    document.getElementById('skills').innerText = 'TECNICAL SKILLS:'+document.getElementById('exampleFormControlInput7').value;
+    document.getElementById('skills').innerHTML ='<h3> TECHNICAL SKILLS:</h3>'+ document.getElementById('exampleFormControlInput7').value;
 
     // Update wanted job title and professional summary
-    document.getElementById('wantedJobTitle').innerText = 'WANTED JOB TITLE: ' + document.getElementById('exampleFormControlInput5').value;
+    document.getElementById('wantedJobTitle').innerHTML = '<h4>WANTED JOB TITLE:<h4> ' + document.getElementById('exampleFormControlInput5').value;
     //update the summary
     
     
-    document.getElementById('professionalSummary').innerText = 'PROFESIONAL SUMMARY: ' + document.getElementById('professionalSummary1').value;
+    document.getElementById('professionalSummary').innerHTML ='<h4>MY SUMMARY</h4>'  + document.getElementById('professionalSummary1').value;
     updateDetails('employment', 'employment' );
     //update function call invocation for textarea updation on each inputs
     //first update the EMPLOYMENT DETAILS
@@ -181,20 +181,20 @@ headerColorPicker.addEventListener('input', function () {
 });
 document.getElementById('myForm').addEventListener('input', function () {
     // Update header with name
-    document.getElementById('header3').innerText = 'I AM:' +document.getElementById('nameInput').value;
+    document.getElementById('header3').innerHTML = '<h4>I AM:</h4>' +document.getElementById('nameInput').value;
 
     // Update side content
-    document.getElementById('email3').innerText = 'Email: ' + document.getElementById('exampleFormControlInput1').value;
-    document.getElementById('phone3').innerText = 'Phone: ' + document.getElementById('exampleFormControlInput2').value;
-    document.getElementById('country3').innerText = ' CITY COUNTRY PINCODE[ADDRESS]: ' + document.getElementById('exampleFormControlInput4').value;
-    document.getElementById('linkedin2').innerText = 'LINKEDIN URL:'+document.getElementById('linkedin').value;
-    document.getElementById('github2').innerText ='GITHUB URL:'+ document.getElementById('github').value;
+    document.getElementById('email3').innerHTML = '<h4>Email:<h4> ' + document.getElementById('exampleFormControlInput1').value;
+    document.getElementById('phone3').innerHTML = '<h5>Phone:<h5> ' + document.getElementById('exampleFormControlInput2').value;
+    document.getElementById('country3').innerHTML = '<h5> CITY COUNTRY PINCODE[ADDRESS]:<h5>' + document.getElementById('exampleFormControlInput4').value;
+    document.getElementById('linkedin2').innerHTML = '<h4>LINKEDIN URL:<h4>'+document.getElementById('linkedin').value;
+    document.getElementById('github2').innerHTML ='<h4>GITHUB URL:<h4>'+ document.getElementById('github').value;
     // Update skills
-    document.getElementById('skills2').innerText ='TECHNICAL SKILLS:'+ document.getElementById('exampleFormControlInput7').value;
+    document.getElementById('skills2').innerHTML ='<h4>TECHNICAL SKILLS:<h4>'+ document.getElementById('exampleFormControlInput7').value;
 
     // Update wanted job title and professional summary
-    document.getElementById('summary12').innerText = 'WANTED JOB TITLE: ' + document.getElementById('exampleFormControlInput5').value;
-    document.getElementById('summary13').innerText = 'PROFESSIONAL SUMMARY: ' + document.getElementById('professionalSummary1').value;
+    document.getElementById('summary12').innerHTML = '<h4>WANTED JOB TITLE: <h4>' + document.getElementById('exampleFormControlInput5').value;
+    document.getElementById('summary13').innerHTML = '<h4>PROFESSIONAL SUMMARY:<h4> ' + document.getElementById('professionalSummary1').value;
     // Update details in Container 3
   updateDetails('experience2', 'employment' );
   updateDetails('projects2', 'project');
