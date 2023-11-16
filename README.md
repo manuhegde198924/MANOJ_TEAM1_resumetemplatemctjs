@@ -64,6 +64,52 @@ The toggleBackground function enables users to toggle between two background col
 Two functions, generatePDF1 and generatePDF2, are defined for generating PDFs of the Two-Column and Minimalist Resumes, respectively. These functions use the html2pdf library to convert resume containers into downloadable PDFs.
 
 
+Features:
+
+    Template Selection:
+        Users can choose between "Two Column" and "Minimalist" resume templates using a dropdown menu.
+
+    Color Customization:
+        Header color and text color for the resumes can be customized using color pickers.
+
+    Form Input:
+        Users can input their personal details, professional summary, technical skills, and more in a form.
+
+    Dynamic Text Areas:
+        Users can dynamically add employment, project, and educational details with the click of corresponding buttons.
+
+    Resume Generation:
+        Two resumes (Two Column and Minimalist) can be generated as PDFs using the "Download" buttons.
+
+    Dark Mode:
+        Users can switch between light and dark modes with a toggle switch.
+
+File Structure:
+
+    index.html: Contains the main HTML structure and includes external libraries for icons and styles.
+    style.css: External stylesheet for styling the HTML elements.
+    app.js: The main JavaScript file that adds functionality to the HTML elements.
+
+Libraries Used:
+
+    FontAwesome: Icons used for visual representation.
+    html2pdf: Library for generating PDFs from HTML content.
+
+How to Run:
+
+    Open the index.html file in a web browser.
+    Interact with the form to input personal and professional details.
+    Choose a template and customize colors.
+    Add employment, project, and educational details dynamically.
+    Download generated resumes as PDFs.
+
+Additional Notes:
+
+    The project uses Vanilla JavaScript for interactivity without relying on external frameworks.
+    Dark mode provides an alternative visual style for users.
+    MANY SMALL ANIMATIONS WERE INCLUDED
+
+
 
 
 
