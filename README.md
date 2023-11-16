@@ -2,8 +2,11 @@
 <p>
 </p>
 <br>
+<br>
 HOSTED LINK OF PROJECT: https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/
 OR REFER TO MY NETIFLY:https://chimerical-creponne-2ab492.netlify.app/
+<br>
+<br>
 MAIN DETAILS FOR PROJECT: GENEARTE 2 RESUME TEMPLATE TYPES MAINLY USING VANILLA JS
 ***Appending the data on resume (live basis).
 ******Appending the data on resume (live basis).
