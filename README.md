@@ -59,6 +59,14 @@ Download functionality, MANY OTHER FUNCTIONALITIES.
 
     The Minimalist resume is initially hidden (style="display:none") but can be generated dynamically.
     It includes placeholders for the user's name, contact information, summary, skills, professional experience, projects, and educational details.
+   >
+
+
+
+
+
+<br>
+
 
 ### 🏠 [Homepage](https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/)
 
