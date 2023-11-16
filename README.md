@@ -29,45 +29,6 @@ Download functionality, MANY OTHER FUNCTIONALITIES.
 
 
 
-
-1. Download PDF Buttons
-
-    The HTML code starts with the definition of download PDF buttons using <button> elements. These buttons trigger JavaScript functions (generatePDF1() and generatePDF2()) to generate PDFs based on the entered information.
-
-2. Theme Switch
-
-    There is a theme switch container with a checkbox (#theme-toggle) to switch between light and dark modes. The appearance is controlled by CSS and can be toggled using JavaScript.
-
-3. Form Container (#container1)
-
-    The form is organized in a container with the ID container1.
-    It includes a dropdown (<select>) for choosing the template type (Two Column or Minimalist).
-    Color pickers for selecting the header and text colors.
-    Personal details form inputs for name, email, phone, address, LinkedIn, and GitHub profiles.
-    Professional details form inputs for job title, summary, technical skills, and buttons to dynamically add employment, project, and educational details.
-
-4. JavaScript Functions
-
-    The form includes JavaScript functions (addTextArea) that dynamically add text areas for employment, project, and educational details.
-
-5. Two Column Resume (#container2)
-
-    The Two Column resume is initially hidden (style="display:none") but can be generated dynamically.
-    It includes placeholders for the user's name, contact information, skills, employment details, project details, and educational details.
-
-6. Minimalist Resume (#container3)
-
-    The Minimalist resume is initially hidden (style="display:none") but can be generated dynamically.
-    It includes placeholders for the user's name, contact information, summary, skills, professional experience, projects, and educational details.
-   >
-
-
-
-
-
-<br>
-
-
 ### 🏠 [Homepage](https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/)
 
 ### ✨ [Demo](https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/)
