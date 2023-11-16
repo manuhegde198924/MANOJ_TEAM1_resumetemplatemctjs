@@ -5,8 +5,7 @@
 <br>
 HOSTED LINK OF PROJECT: https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/
 OR REFER TO MY NETIFLY:https://chimerical-creponne-2ab492.netlify.app/
-INITIALLY EXPLAINED EVERYTHING INDETAILED REFER THIS:https://github.com/manuhegde198924/MANOJ_TEAM1_resumetemplatemctjs/issues
-again refer to this :https://github.com/manuhegde198924/MANOJ_TEAM1_resumetemplatemctjs/issues/1
+INITIALLY EXPLAINED EVERYTHING INDETAILED REFER THIS refer to this :https://github.com/manuhegde198924/MANOJ_TEAM1_resumetemplatemctjs/issues/1
 <br>
 <br>
 MAIN DETAILS FOR PROJECT: GENEARTE 2 RESUME TEMPLATE TYPES MAINLY USING VANILLA JS
