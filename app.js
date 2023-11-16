@@ -65,10 +65,10 @@ document.getElementById('myForm').addEventListener('input', function () {
     document.getElementById('email').innerHTML = '<h5>Email:</h5> ' + document.getElementById('exampleFormControlInput1').value;
     document.getElementById('phone').innerHTML = '<h5>Phone: </h5>' + document.getElementById('exampleFormControlInput2').value;
     document.getElementById('country').innerHTML = ' <h5>CITY</h5> ' + document.getElementById('exampleFormControlInput4').value;
-    document.getElementById('linkedin1').innerHTML = '<h5>LINKEDIN URL:</h5>'+document.getElementById('linkedin').value;
-    document.getElementById('github1').innerHTML ='</h5>GITHUB URL:<h5>'+ document.getElementById('github').value;
+    document.getElementById('linkedin1').innerHTML = '<p>LINKEDIN URL:</p>'+document.getElementById('linkedin').value;
+    document.getElementById('github1').innerHTML ='</p>GITHUB URL:<p>'+ document.getElementById('github').value;
     // Update skills
-    document.getElementById('skills').innerHTML ='<h3>TOP 3 TECHNICAL SKILLS:</h3>'+ document.getElementById('exampleFormControlInput7').value;
+    document.getElementById('skills').innerHTML ='<ul><li></li></l>'+ document.getElementById('exampleFormControlInput7').value;
 
     // Update wanted job title and professional summary
     document.getElementById('wantedJobTitle').innerHTML = '<h4>WANTED JOB TITLE:<h4> ' + document.getElementById('exampleFormControlInput5').value;

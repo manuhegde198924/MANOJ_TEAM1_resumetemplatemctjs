@@ -235,14 +235,14 @@ textarea{
     align-items: center;
 }
 /* THIS ONE FOR THE OTHER MAIN CONTENT FLEXBOX WIDTH 75 PERCENT */
-.row {
+/* .row {
     width: 100%;
     height: 83%;
     display: flex;
     flex-direction: row;
-}
+} */
 /* CONTACT AND SKILLS WIDTH */
-#side {
+/* #side {
     width: 25%;
     height: 100%;
     background-color:cornsilk;
@@ -252,7 +252,7 @@ textarea{
     align-items: center;
     justify-content: space-between;
     border:1px solid red;
-}
+} */
 #contact,#skills{
   height:auto;
 }
@@ -262,7 +262,7 @@ textarea{
 #main{
 overflow-wrap:anywhere;
 }
-#main {
+/* #main {
     width: 75%;
     height: 100%;
     background-coloR:white;
@@ -270,14 +270,16 @@ overflow-wrap:anywhere;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 #skills2,#education2,#experience2,#projects2,#summary2{
 background-color:white;
 width:100%;
 height:auto;
 
 }
-
+#side,#main{
+  overflow: scroll;
+}
 #linkedin,#github{
   width:100%;
 }
@@ -424,11 +426,29 @@ animation: gradient 10s ease infinite;
   }
 
     /* Add any additional styles for tablet and desktop views */
-    .row {
+    /* .row {
         flex-direction: row;
+    } */
+
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
     }
-
-
+    
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 20%;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    
+    /* Main column */
+    .main {
+      flex: 45%;
+      background-color: white;
+      padding: 20px;
+    }
     #header2,
     #header3 {
         height: 15%;
