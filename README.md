@@ -1,6 +1,7 @@
 <h1 align="center">Welcome to resumetemplatemctjs 👋</h1>
 <p>
 </p>
+<br>
 HOSTED LINK OF PROJECT: https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/
 OR REFER TO MY NETIFLY:https://chimerical-creponne-2ab492.netlify.app/
 MAIN DETAILS FOR PROJECT: GENEARTE 2 RESUME TEMPLATE TYPES MAINLY USING VANILLA JS
