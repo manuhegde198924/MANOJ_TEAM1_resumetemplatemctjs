@@ -23,7 +23,53 @@ Download functionality, MANY OTHER FUNCTIONALITIES.
 <br>
 <br>
 
-> A VANIILA JS PROJECT FOR RESUME TEMPLATES.WHERE A USER CAN INPUT,AND GENERATE 2 TYPES OF RESUMES NAMELY TWO COULMN AND MINIMALIST. A HTML FORM WAS CHOOSEN AS A CONTAINER 1 2 OTHER RESUMES WITH 2 SIMPLE THEMES WERE CHOOSEN AS CONTAINER 2 AND CONTAINER 3 THERE ARE TWO TYPES OF RESUME PDF DOWN LOAD OPTIONS AVAILABLE FOR BOTH RESUMES CHOOSEN ACCORDINGLY A QUICK PDF PROVIDES A BIRD EYE VIEW OF THE PDFS OF BOTH RESUME ACCORDING WITH THE DOWNLOAD ON YOUR PCS.MANY VANILLA JAVASCRIP FUNCTIONALITIES WERE USED LIKE ONCLICK EVENTS FOR EACH BUTTONS AND EVENT LISTENER FOR ALL THE FORM INPUTS CHANGES TEXTS AREAS FOR ADD EMPLOYMENT ADD EDUCATION ADD PROJECTS DETAILS WERE CREATED UPON ENTERING IN THE FORM BOTH THE RESUMES WERE MODIFIED ACCORDINGLY .FIRST THE TEMPLATE TYPES WERE CHOOSEN SPECIFYING THE TYPE OF RESUME WITH A 2 TYPES APPROACHES .THEN HEADER COLOR FOR THE RESUMES WER CHANGED TO GIVE IT A BETTER LOOK A RANDON TEXT COLORS WER CHOOSEN FOR WHOLE RESUMES .NAMES ENTERED APPEARS ON THE HEADERS OF EACH RESUME THRUOGH DOM MANIPULATIONS EMAIL PHONE AND CITY DETAILS APPEARS ON THE RESPECTIVE SECTIONS OF RESUMES THE SUMMARY APPEARS ON EACH RESUMES WANTED JOB TITLE CAN MAKE A CATCHY CHHOSE FOR RESUMES ALL THE OTHER DETALS APPEARS ON THE RESPECTIVE SECTIONS . MAINLY DOWNLOAD PDF THROUGH JSPDF NEW VERSIONS WERE BUILT.IT WAS VERY INTERSTING TO GENERATE PDFS OF BOTH RESUMES DETAILS THROUGH JSPDF AND OTHER NEW VERSIONS DOWNLOADS .EXTRA FUNCTIONALITIES LIKE ANIMATIONS A THEME TOOGLER A LINKEDIN AND GEIHU ADDITIONS MAKE IT INTERSTING.HTML; CSS AND VANILLA JS PARTS WILL BE EXPLAINED IN DETAILS   
+> A VANIILA JS PROJECT FOR RESUME TEMPLATES.WHERE A USER CAN INPUT,AND GENERATE 2 TYPES OF RESUMES NAMELY TWO COULMN AND MINIMALIST. A HTML FORM WAS CHOOSEN AS A CONTAINER 1 2 OTHER RESUMES WITH 2 SIMPLE THEMES WERE CHOOSEN AS CONTAINER 2 AND CONTAINER 3 THERE ARE TWO TYPES OF RESUME PDF DOWN LOAD OPTIONS AVAILABLE FOR BOTH RESUMES CHOOSEN ACCORDINGLY A QUICK PDF PROVIDES A BIRD EYE VIEW OF THE PDFS OF BOTH RESUME ACCORDING WITH THE DOWNLOAD ON YOUR PCS.MANY VANILLA JAVASCRIP FUNCTIONALITIES WERE USED LIKE ONCLICK EVENTS FOR EACH BUTTONS AND EVENT LISTENER FOR ALL THE FORM INPUTS CHANGES TEXTS AREAS FOR ADD EMPLOYMENT ADD EDUCATION ADD PROJECTS DETAILS WERE CREATED UPON ENTERING IN THE FORM BOTH THE RESUMES WERE MODIFIED ACCORDINGLY .FIRST THE TEMPLATE TYPES WERE CHOOSEN SPECIFYING THE TYPE OF RESUME WITH A 2 TYPES APPROACHES .THEN HEADER COLOR FOR THE RESUMES WER CHANGED TO GIVE IT A BETTER LOOK A RANDON TEXT COLORS WER CHOOSEN FOR WHOLE RESUMES .NAMES ENTERED APPEARS ON THE HEADERS OF EACH RESUME THRUOGH DOM MANIPULATIONS EMAIL PHONE AND CITY DETAILS APPEARS ON THE RESPECTIVE SECTIONS OF RESUMES THE SUMMARY APPEARS ON EACH RESUMES WANTED JOB TITLE CAN MAKE A CATCHY CHHOSE FOR RESUMES ALL THE OTHER DETALS APPEARS ON THE RESPECTIVE SECTIONS . MAINLY DOWNLOAD PDF THROUGH JSPDF NEW VERSIONS WERE BUILT.IT WAS VERY INTERSTING TO GENERATE PDFS OF BOTH RESUMES DETAILS THROUGH JSPDF AND OTHER NEW VERSIONS DOWNLOADS .EXTRA FUNCTIONALITIES LIKE ANIMATIONS A THEME TOOGLER A LINKEDIN AND GEIHU ADDITIONS MAKE IT INTERSTING.HTML; CSS AND VANILLA JS PARTS WILL BE EXPLAINED IN DETAILS
+
+ - Vanilla JavaScript Resume Builder
+Overview
+
+This Vanilla JavaScript project is a Resume Builder that allows users to create two types of resumes: a Two-Column Resume and a Minimalist Resume. The user can input personal details, choose a resume type, customize colors, and generate PDFs for each resume type.
+Project Structure
+1. Initial Setup
+
+The project utilizes the DOMContentLoaded event to ensure the page has fully loaded before executing JavaScript. It initializes three containers:
+
+    container1 for the form/input data,
+    container2 for the Two-Column Resume,
+    container3 for the Minimalist Resume.
+
+By default, both container1 and container2 are visible, while container3 is hidden. The visibility toggles based on the selected resume type.
+2. Resume Type Selection
+
+The optionsSelect element allows users to choose between the Two-Column Resume (option1) and the Minimalist Resume (option2). The event listener updates the visibility of containers accordingly.
+3. Header Color Picker
+
+The headerColorPicker input allows users to choose the background color for the header where the name appears. The chosen color dynamically updates the header background.
+4. Text Color Picker
+
+The textColorPicker input allows users to choose the text color for both resumes, enabling customization for colored printouts.
+5. Form Data Input
+
+The myForm form captures user input for personal details, including name, email, phone, address, LinkedIn, GitHub, skills, job title, and professional summary. Input events trigger real-time updates in the respective sections of the resumes.
+6. Dynamic Textarea Creation
+
+Textareas for employment, project, and education details are dynamically created based on user interaction. The addTextArea function generates unique textareas with appropriate IDs for each category.
+7. Update Details Function
+
+The updateDetails function dynamically updates the displayed details for employment, project, and education based on user input.
+8. Theme Toggle
+
+The toggleBackground function enables users to toggle between two background colors for the entire page.
+9. PDF Generation
+
+Two functions, generatePDF1 and generatePDF2, are defined for generating PDFs of the Two-Column and Minimalist Resumes, respectively. These functions use the html2pdf library to convert resume containers into downloadable PDFs.
+
+
+
+
+
+
+
 
 
 
