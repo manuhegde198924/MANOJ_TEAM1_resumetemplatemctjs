@@ -413,7 +413,7 @@ thanks a lot for MDN,MANY ANIMATION SUGESSTIONS FROM CODEPEN,MANY VANILLA JS DOM
 
 ### 🏠 [Homepage](https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/)
 
-### ✨ [Demo](https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/)
+### ✨ [Demo](https://thatshegdemanojsresumetemplate.netlify.app/)
 
 ## Install
 
