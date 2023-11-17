@@ -405,6 +405,7 @@ toggleBackground();
         PDF Generation Functions: Defines functions (generatePDF1 and generatePDF2) for generating PDFs using the html2pdf library. These functions alert the user and then generate PDFs for the specified elements (resume1 or resume2) on button click.
 
 The code combines HTML, CSS, and JavaScript to create a dynamic resume builder with options for different resume styles and customization. It uses event listeners to respond to user input, updates the UI accordingly, and provides functionality for generating PDF resumes.
+thanks a lot for MDN,MANY ANIMATION SUGESSTIONS FROM CODEPEN,MANY VANILLA JS DOM MANIPULATION REFERENCES, AND FOR PDF GENERATIONS REFER ::--->https://pspdfkit.com/blog/2019/html-to-pdf-in-javascript/
 
 
 
