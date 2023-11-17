@@ -8,11 +8,12 @@ body {
     font-family: Arial, Helvetica, sans-serif; 
     box-sizing: border-box;
     font-family: "Rajdhani", sans-serif;
-    background-image: -webkit-linear-gradient(45deg, hsl(111, 84%, 56%), hsl(291, 84%, 56%));
+    background-image:url('giphy.gif');
    
     width: 100%;
   
 } 
+
 
 #optionsSelect{
   background: linear-gradient(to top, #0ba360 0%, #3cba92 100%); 
@@ -132,11 +133,12 @@ textarea{
 /* MY FORM SHOULD TAKE FULL WIDTH OF THE CONTAINER */
 #myform{
     width:100%;
+  
 }
 /* SIMILARLY LET ALL INPUTS UNDER FORM TAKE FULL FULL WIDTH FOR BETTER VISIBILITY */
 #nameInput,#exampleFormControlInput1,#exampleFormControlInput2,#exampleFormControlInput3,#exampleFormControlInput4,
-#exampleFormControlInput5,#exampleFormControlInput6,#exampleFormControlInput7,#professionalSummary1{
-    width:125%;
+#exampleFormControlInput5,#exampleFormControlInput6,#exampleFormControlInput7,#professionalSummary1,#linkedin,#github{
+    width:100%;
 }
 .button-89 {
   padding: 15px 20px;
@@ -198,7 +200,7 @@ textarea{
 
 
 #first,#second,#third{
-  width:125%;
+  width:100%;
 
 }
 .textAreaContainer textarea {
@@ -208,9 +210,7 @@ textarea{
 #textAreasContainer1,#textAreasContainer2,#textAreasContainer3{
     width:auto;
 } */
-#linkedin,#github{
-  width:125%;
-}
+
 /* RESUME 2
 #container2 {
   
@@ -280,9 +280,7 @@ height:auto;
 #side,#main{
   overflow: scroll;
 }
-#linkedin,#github{
-  width:100%;
-}
+
 #header3 {
     width: 100%;
     height: 35%;
@@ -459,9 +457,7 @@ animation: gradient 10s ease infinite;
     }
 
     /* Responsive styles for form elements */
-    #myForm {
-        width: 80%; /* Adjust width as needed */
-    }
+  
     
 /* Media Query for Desktops and Larger Screens */
 @media (min-width: 992px) {

@@ -62,9 +62,9 @@ document.getElementById('myForm').addEventListener('input', function () {
 
     // Update side content
     //update email,phone number,github,contact,address
-    document.getElementById('email').innerHTML = '<h5>Email:</h5> ' + document.getElementById('exampleFormControlInput1').value;
-    document.getElementById('phone').innerHTML = '<h5>Phone: </h5>' + document.getElementById('exampleFormControlInput2').value;
-    document.getElementById('country').innerHTML = ' <h5>CITY</h5> ' + document.getElementById('exampleFormControlInput4').value;
+    document.getElementById('email').innerHTML = document.getElementById('exampleFormControlInput1').value;
+    document.getElementById('phone').innerHTML =  document.getElementById('exampleFormControlInput2').value;
+    document.getElementById('country').innerHTML =  document.getElementById('exampleFormControlInput4').value;
     document.getElementById('linkedin1').innerHTML = '<p>LINKEDIN URL:</p>'+document.getElementById('linkedin').value;
     document.getElementById('github1').innerHTML ='</p>GITHUB URL:<p>'+ document.getElementById('github').value;
     // Update skills
@@ -184,8 +184,8 @@ document.getElementById('myForm').addEventListener('input', function () {
     document.getElementById('header3').innerHTML = '<h4>I AM:</h4>' +document.getElementById('nameInput').value;
 
     // Update side content
-    document.getElementById('email3').innerHTML = '<h4>Email:<h4> ' + document.getElementById('exampleFormControlInput1').value;
-    document.getElementById('phone3').innerHTML = '<h5>Phone:<h5> ' + document.getElementById('exampleFormControlInput2').value;
+    document.getElementById('email3').innerHTML =  document.getElementById('exampleFormControlInput1').value;
+    document.getElementById('phone3').innerHTML =  + document.getElementById('exampleFormControlInput2').value;
     document.getElementById('country3').innerHTML = '<h5> CITY COUNTRY PINCODE[ADDRESS]:<h5>' + document.getElementById('exampleFormControlInput4').value;
     document.getElementById('linkedin2').innerHTML = '<h4>LINKEDIN URL:<h4>'+document.getElementById('linkedin').value;
     document.getElementById('github2').innerHTML ='<h4>GITHUB URL:<h4>'+ document.getElementById('github').value;
@@ -209,7 +209,7 @@ function toggleBackground() {
 
   themeToggle.addEventListener("change", function () {
     const isChecked = this.checked;
-    document.body.style.background = isChecked ? "#876" : "#541"; // Change background color here
+    document.body.style.background=isChecked ? "url('./200c.gif')" : "url('./200b.gif')"; // Change background color here
     
   });
 }
