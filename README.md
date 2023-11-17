@@ -6,6 +6,7 @@
 HOSTED LINK OF PROJECT:https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/
 OR REFER TO MY NETIFLY:https://thatshegdemanojsresumetemplate.netlify.app/
 INITIALLY EXPLAINED EVERYTHING INDETAILED REFER THIS refer to this :https://github.com/manuhegde198924/MANOJ_TEAM1_resumetemplatemctjs/issues/1
+ A SMALL VIDEO DEMO SEE THIS:https://www.loom.com/share/7eb02e2cadd04eab8bd623cf01a30c6f?sid=691a58ee-e0fd-4445-b359-275d74dee5ff
 <br>
 <br>
 MAIN DETAILS FOR PROJECT: GENEARTE 2 RESUME TEMPLATE TYPES MAINLY USING VANILLA JS
