@@ -3,8 +3,8 @@
 </p>
 <br>
 <br>
-HOSTED LINK OF PROJECT: https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/
-OR REFER TO MY NETIFLY:https://chimerical-creponne-2ab492.netlify.app/
+HOSTED LINK OF PROJECT:https://manuhegde198924.github.io/MANOJ_TEAM1_resumetemplatemctjs/
+OR REFER TO MY NETIFLY:https://thatshegdemanojsresumetemplate.netlify.app/
 INITIALLY EXPLAINED EVERYTHING INDETAILED REFER THIS refer to this :https://github.com/manuhegde198924/MANOJ_TEAM1_resumetemplatemctjs/issues/1
 <br>
 <br>
